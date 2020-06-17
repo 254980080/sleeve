@@ -1,0 +1,18 @@
+.container {
+  border: 1px dashed #dcebe6;
+  padding: 5rpx 25rpx;
+}
+.inner {
+  border-bottom: 2rpx solid #dcebe6;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  color: #333;
+}
+.inner text:before {
+  content: "•";
+  margin-right: 26rpx;
+}
+.container .inner:last-child{
+  border: none;
+}

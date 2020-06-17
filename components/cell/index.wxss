@@ -1,0 +1,34 @@
+/* components/cell/index.wxss */
+.container {
+  height: 60rpx;
+  padding: 2rpx;
+  border: 2rpx solid #333;
+  box-sizing: border-box;
+}
+.inner-container {
+  height: 100%;
+  display: flex;
+  padding-left: 15rpx;
+  padding-right: 15rpx;
+  flex-direction: row;
+  font-size: 24rpx;
+  align-items: center;
+  background: #fff;
+}
+.forbidden {
+  border: 2rpx dashed #bbb;
+  color: #bbb;
+}
+.s-outer {
+  border: 2rpx solid #157658;
+  color: #fff;
+}
+.s-inner {
+  background: #157658;
+}
+.img {
+  display: flex;
+  margin-right: 10rpx;
+  width: 44rpx;
+  height: 44rpx;
+}

@@ -1,0 +1,43 @@
+/* pages/home/home.wxss */
+.top-theme {
+  width: 100%;
+  height: 260rpx;
+  display: flex;
+}
+.swiper {
+  width: 100%;
+  height: 360rpx;
+}
+.activity {
+  width: 100%;
+  height: 310rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+}
+.quality {
+  width: 100%;
+  height: 880rpx;
+  display: flex;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.fanshion {
+  display: flex;
+  width: 100%;
+  height: 840rpx;
+  margin-top: 20rpx;
+}
+.spu-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+  background: #fff;
+  padding-top: 30rpx;
+}
+.title-spu-bottom {
+  width: 690rpx;
+  height: 70rpx;
+  margin-bottom: 38rpx;
+}

@@ -1,0 +1,78 @@
+/* sku */
+.container {
+  background: #fff;
+  box-sizing: border-box;
+  max-height: 1000rpx;
+  min-height: 700rpx;
+  margin-bottom: 100rpx;
+}
+.inner-container {
+  padding: 30rpx 30rpx 0 30rpx;
+}
+.sku-preview {
+  display: flex
+}
+.sku-img {
+  width: 160rpx;
+  height: 160rpx;
+}
+.sku-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 40rpx;
+}
+.discount-price {
+  margin-left: 20rpx;
+}
+.stock-pinch {
+  margin-left: 30rpx;
+  font-size: 20rpx;
+  color: #D20109;
+}
+.sku-pending {
+  font-size: 20rpx;
+}
+.sku-pending > text:nth-child(1) {
+  color: #999;
+}
+.sku-pending > text:nth-child(2) {
+  color: #666;
+}
+.hr {
+  background: #E9E9E9;
+  width: 690rpx;
+  height: 2rpx;
+  margin-top: 30rpx;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30rpx;
+  padding-bottom: 100rpx;
+}
+.count-container text {
+  font-size: 24rpx;
+  color: #555;
+}
+/* 加入购物车 */
+.bottom-btn {
+  position: absolute;
+  bottom: 0;
+  background: #333;
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-btn text {
+  color: #fff;
+}
+/* 暂时缺货 */
+.out-stock {
+  background: #DCEBE6;
+}
